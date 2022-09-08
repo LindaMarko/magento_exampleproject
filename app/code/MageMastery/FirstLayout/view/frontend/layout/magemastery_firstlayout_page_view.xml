@@ -8,11 +8,11 @@ xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_config
                    template="MageMastery_FirstLayout::example.phtml" />
         </referenceContainer>
     </body>
-    <body>
+    <!-- <body>
         <referenceContainer name="content">
             <block class="Magento\Framework\View\Element\Template"
                    name="magemastery.first.layout.example"
                    template="MageMastery_FirstLayout::view/hello.phtml" />
         </referenceContainer>
-    </body>
+    </body> -->
 </page>
