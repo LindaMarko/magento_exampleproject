@@ -8,5 +8,14 @@
                 <argument name="logo_width" xsi:type="string">200</argument>
             </arguments>
         </referenceBlock>
+        
+        <referenceContainer name="footer-container">
+            <block class="Magento\Cms\Block\Block" name="footer-social-media"> 
+                <arguments> 
+                    <argument name="block_id" xsi:type="string">footer-social-media</argument> 
+                </arguments> 
+            </block> 
+        </referenceContainer>
+        
     </body>
 </page>
