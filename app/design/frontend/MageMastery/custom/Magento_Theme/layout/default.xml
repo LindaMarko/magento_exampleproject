@@ -10,11 +10,7 @@
         </referenceBlock>
         
         <referenceContainer name="footer-container">
-            <block class="Magento\Cms\Block\Block" name="footer-social-media"> 
-                <arguments> 
-                    <argument name="block_id" xsi:type="string">footer-social-media</argument> 
-                </arguments> 
-            </block> 
+             <block name="footer.social.links" template="Magento_Theme::footer_social_links.phtml" />
         </referenceContainer>
         
     </body>
